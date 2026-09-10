@@ -14,6 +14,7 @@ xcuserdata/
 
 # Local verification screenshots (personal usage)
 verify-*.png
+BrandIcons/
 
 # Secrets / credentials
 .env

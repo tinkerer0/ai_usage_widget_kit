@@ -23,10 +23,6 @@
 		A10000000000000000000014 /* AIUsageWidgetWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A30000000000000000000002 /* AIUsageWidgetWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, CodeSignOnCopy, ); }; };
 		A10000000000000000000015 /* BackgroundAgentInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* BackgroundAgentInstaller.swift */; };
 		A10000000000000000000022 /* RemoteUsageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000027 /* RemoteUsageClient.swift */; };
-		A10000000000000000000016 /* CodexAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000024 /* CodexAppIcon.png */; };
-		A10000000000000000000017 /* ClaudeAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000025 /* ClaudeAppIcon.png */; };
-		A10000000000000000000018 /* CodexAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000024 /* CodexAppIcon.png */; };
-		A10000000000000000000019 /* ClaudeAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000025 /* ClaudeAppIcon.png */; };
 		A10000000000000000000020 /* BrandAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000026 /* BrandAssets.xcassets */; };
 		A10000000000000000000021 /* BrandAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000026 /* BrandAssets.xcassets */; };
 /* End PBXBuildFile section */
@@ -74,9 +70,6 @@
 		A20000000000000000000021 /* AIUsageWidgetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIUsageWidgetWidget.swift; sourceTree = "<group>"; };
 		A20000000000000000000022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20000000000000000000023 /* AIUsageWidgetWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AIUsageWidgetWidget.entitlements; sourceTree = "<group>"; };
-		A20000000000000000000024 /* CodexAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CodexAppIcon.png; sourceTree = "<group>"; };
-		A20000000000000000000025 /* ClaudeAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClaudeAppIcon.png; sourceTree = "<group>"; };
-		A20000000000000000000028 /* CursorAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CursorAppIcon.png; sourceTree = "<group>"; };
 		A20000000000000000000026 /* BrandAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BrandAssets.xcassets; sourceTree = "<group>"; };
 		A30000000000000000000001 /* AI Usage Widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Usage Widget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30000000000000000000002 /* AIUsageWidgetWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AIUsageWidgetWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,7 +98,6 @@
 			children = (
 				A60000000000000000000002 /* AIUsageWidgetApp */,
 				A60000000000000000000003 /* AIUsageWidgetWidget */,
-				A60000000000000000000006 /* BrandIcons */,
 				A20000000000000000000026 /* BrandAssets.xcassets */,
 				A60000000000000000000005 /* Products */,
 			);
@@ -150,16 +142,6 @@
 				A30000000000000000000002 /* AIUsageWidgetWidget.appex */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A60000000000000000000006 /* BrandIcons */ = {
-			isa = PBXGroup;
-			children = (
-				A20000000000000000000024 /* CodexAppIcon.png */,
-				A20000000000000000000025 /* ClaudeAppIcon.png */,
-				A20000000000000000000028 /* CursorAppIcon.png */,
-			);
-			path = BrandIcons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +226,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10000000000000000000020 /* BrandAssets.xcassets in Resources */,
-				A10000000000000000000016 /* CodexAppIcon.png in Resources */,
-				A10000000000000000000017 /* ClaudeAppIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10000000000000000000021 /* BrandAssets.xcassets in Resources */,
-				A10000000000000000000018 /* CodexAppIcon.png in Resources */,
-				A10000000000000000000019 /* ClaudeAppIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

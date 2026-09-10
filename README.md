@@ -60,9 +60,13 @@ xcodebuild -project AIUsageWidgetKit.xcodeproj \
 
 ## 개인정보
 
-위젯은 계정을 만들지 않고, 사용량을 이 저장소나 제3자 서버로 보내지 않습니다. 요청은 각 제공자의 공식 usage 엔드포인트로만 갑니다. 로컬 스냅샷은 `~/Library/Application Support/AIUsageWidget/`에 남습니다.
+자세한 내용은 [PRIVACY.md](PRIVACY.md)를 보세요. 보안 보고는 [SECURITY.md](SECURITY.md)입니다.
+
+위젯은 계정을 만들지 않고, 사용량을 이 저장소로 보내지 않습니다. 요청은 각 제공자의 usage 엔드포인트로만 갑니다. 로컬 스냅샷(`~/Library/Application Support/AIUsageWidget/snapshot.json`)에는 퍼센트와 리셋 시각만 있고 토큰은 없습니다.
 
 설정에 넣는 OpenAI/Anthropic admin API 키는 위젯 전용 키체인 서비스 `AIUsageWidget`에만 저장되며, 없어도 구독 사용량 표시는 동작합니다.
+
+패널 아이콘은 각 제품의 상표입니다. 소속·후원은 아닙니다.
 
 ## 기여·피드백
 
