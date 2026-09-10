@@ -1,0 +1,33 @@
+# Xcode build products
+build/
+build-*/
+dist/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Local verification screenshots (personal usage)
+verify-*.png
+
+# Secrets / credentials
+.env
+.env.*
+credentials.json
+.credentials.json
+*.pem
+id_rsa
+id_dsa
+*.p12
+*.mobileprovision
+
+# OS / editor
+.DS_Store
+**/.DS_Store
+.idea/
+*.swp
