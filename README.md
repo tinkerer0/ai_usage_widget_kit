@@ -1,5 +1,10 @@
 # AI Usage Widget
 
+> **보관용** — 더 이상 쓰거나 업데이트하지 않는 앱입니다. 소스와 문서는 그대로 보존하며, 아래 내용은 마지막 버전 기준입니다. 각 서비스의 사용량 API가 바뀌면 동작하지 않을 수 있습니다.
+
+<details>
+<summary>기존 설명과 사용법</summary>
+
 <p align="center">
   <img src="BrandAssets.xcassets/CodexWidgetIcon.imageset/CodexAppIcon.png" width="56" alt="Codex">
   &nbsp;
@@ -115,3 +120,5 @@ xcodebuild -project AIUsageWidgetKit.xcodeproj \
 ## License
 
 MIT. Copyright (c) 2026 tinkerer0.
+
+</details>
